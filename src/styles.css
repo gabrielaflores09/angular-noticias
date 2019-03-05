@@ -12,17 +12,13 @@
 }
 
 .list-item {
-    cursor: pointer;
-    border: 2px solid;
-    background: transparent none repeat scroll 0% 0%;
     color: #a8dadc;
     width: 40px;
     height: 40px;
+    border: 2px solid;
+    cursor: pointer;
     border-radius: 35px;
-    margin-right: 8px;
-    box-sizing: border-box;
-    padding: 0px;
-    -moz-box-pack: center;
+    margin-right: 5px;
     justify-content: center;
     display: inline-grid;
 }
@@ -64,9 +60,6 @@
     }
     .opciones-2 {
         display: inline;
-    }
-    .list-item {
-        border-radius: none;
     }
 }
 
