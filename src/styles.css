@@ -1,1 +1,47 @@
 /* You can add global styles to this file, and also import other style files */
+
+.logo {
+    width: 150px;
+    display: inline-block;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    color: rgb(180, 172, 165);
+}
+
+.list-item {
+    cursor: pointer;
+    border: 2px solid;
+    background: transparent none repeat scroll 0% 0%;
+    color: rgb(180, 172, 165);
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+    margin-right: 8px;
+    box-sizing: border-box;
+    padding: 0px;
+    -moz-box-pack: center;
+    justify-content: center;
+    display: inline-grid;
+}
+
+.opciones {
+    display: inline-flex;
+}
+
+.header {
+    z-index: 100;
+    padding: 10px;
+}
+
+.icon {
+    color: rgb(180, 172, 165);
+    display: block;
+    font-size: 22px;
+}
+
+.imageLogo {
+    width: 100%
+}
