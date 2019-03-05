@@ -1,21 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
 .logo {
-    width: 150px;
+    width: 100px;
     display: inline-block;
 }
 
 .list {
     list-style: none;
     display: contents;
-    color: rgb(180, 172, 165);
+    color: #a8dadc;
 }
 
 .list-item {
     cursor: pointer;
     border: 2px solid;
     background: transparent none repeat scroll 0% 0%;
-    color: rgb(180, 172, 165);
+    color: #a8dadc;
     width: 40px;
     height: 40px;
     border-radius: 35px;
@@ -37,7 +37,7 @@
 }
 
 .icon {
-    color: rgb(180, 172, 165);
+    color: #a8dadc;
     display: block;
     font-size: 22px;
 }
@@ -47,7 +47,7 @@
 }
 
 .line {
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid #457b9d;
     padding: 10px;
 }
 
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 576px) {
-    .opciones {
+    .opciones-redes {
         display: none;
     }
     .opciones-2 {
@@ -68,4 +68,8 @@
     .list-item {
         border-radius: none;
     }
+}
+
+.opciones-redes {
+    padding-left: 15px;
 }
