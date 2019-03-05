@@ -7,7 +7,7 @@
 
 .list {
     list-style: none;
-    display: flex;
+    display: contents;
     color: rgb(180, 172, 165);
 }
 
@@ -44,4 +44,28 @@
 
 .imageLogo {
     width: 100%
+}
+
+.line {
+    border-bottom: 3px solid purple;
+    padding: 10px;
+}
+
+.responsive {
+    width: 100%;
+    display: inline-flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+    .opciones {
+        display: none;
+    }
+    .opciones-2 {
+        display: inline;
+    }
+    .list-item {
+        border-radius: none;
+    }
 }
