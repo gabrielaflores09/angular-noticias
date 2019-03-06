@@ -12,9 +12,9 @@
 }
 
 .list-item {
-    color: #a8dadc;
     width: 40px;
     height: 40px;
+    color: #a8dadc;
     border: 2px;
     border-style: solid;
     cursor: pointer;
@@ -76,4 +76,20 @@
 
 .head-footer {
     width: 130px;
+}
+
+.cuerpo {
+    padding: 10px;
+}
+
+.noticia {
+    padding-top: 10px;
+    padding-block-end: 10px;
+}
+
+.linknoticia {}
+
+.fuenteNoticia {
+    color: #457b9d;
+    font-size: 15px;
 }
