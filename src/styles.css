@@ -87,9 +87,18 @@
     padding-block-end: 10px;
 }
 
-.linknoticia {}
+.imageNoticia {
+    position: relative;
+    display: inline-block;
+}
 
 .fuenteNoticia {
     color: #457b9d;
     font-size: 15px;
+}
+
+.autorNoticia {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
 }
