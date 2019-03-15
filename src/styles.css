@@ -75,7 +75,7 @@
 }
 
 .head-footer {
-    width: 130px;
+    width: 100px;
 }
 
 .cuerpo {
@@ -133,4 +133,8 @@ a.linkNoticia:link {
 .content {
     /* color entre la imagen y el titulo */
     background-color: #457b9d;
+}
+
+hr {
+    background: white;
 }
