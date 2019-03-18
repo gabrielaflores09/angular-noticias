@@ -16,7 +16,7 @@ import { FooterComponent } from './footer/footer.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [NewsServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
