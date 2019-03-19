@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import { ActivatedRoute } from '@angular/router';
-import 'rxjs/add/operator/toPromise'; // Mi promesa :3
+import 'rxjs/add/operator/toPromise'; 
 
 @Injectable({
   providedIn: 'root'
@@ -17,11 +17,11 @@ export class NewsServiceService {
       .toPromise().then(response => response.json() as Articulo[]);
   }
 }
-// Defino mi interface para Articulo
 
+// Defino mi interface para Articulo
 export interface Articulo {
   articles: {
-    source: { // Fuente
+    source: {
       name: string;
     },
     author: string;
