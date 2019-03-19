@@ -2,24 +2,24 @@
     <div class="container">
 
         <div class="row">
-            <article class="noticia col-sm-12 col-md-6 col-lg-4">
-                <a href="#noticia" class="linkNoticia">
+            <article class="noticia col-sm-12 col-md-6 col-lg-4" *ngFor="let item of articulos.articles">
+                <a href={{item.url}} class="linkNoticia">
                     <div class="content">
                         <div class="imageNoticia ">
-                            <img class="imagearticle" src="https://static3.tablasdemultiplicar.com/es/static/images/5s/tabla-del-8.png">
+                            <img class="imagearticle" src={{item.urlToImage}}>
                             <div class="autorNoticia">
-                                <span>Por <strong> Enrique Pfaab</strong></span>
+                                <span>Por <strong> {{item.author}}</strong></span>
                             </div>
                         </div>
 
                         <div class="tituloNoticia">
                             <div class="fuenteNoticia">
-                                <span><strong>Crisis Vitivinícola</strong></span>
+                                <span><strong>{{item.source.name}}</strong></span>
                             </div>
                             <header>
                                 <h2 class="titulo">
                                     <strong>
-                                        Los productores del Este regalarán uva a modo de reclamo
+                                        {{item.title}}
                                     </strong>
                                 </h2>
                             </header>
