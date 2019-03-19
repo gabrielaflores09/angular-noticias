@@ -1,20 +1,23 @@
 <div class="cuerpo">
-    <div class="container">
-
+    <div class="container-fluid">
         <div class="row">
             <article class="noticia col-sm-12 col-md-6 col-lg-4" *ngFor="let item of articulos.articles">
                 <a href={{item.url}} class="linkNoticia">
                     <div class="content">
-                        <div class="imageNoticia ">
-                            <img class="imagearticle" src={{item.urlToImage}}>
+                        <div class="imageNoticia">
+                            <img class="imageArticle" src={{item.urlToImage}}>
                             <div class="autorNoticia">
-                                <span>Por <strong> {{item.author}}</strong></span>
+                                <span>
+                                    <strong>{{item.author}}</strong>
+                                </span>
                             </div>
                         </div>
 
                         <div class="tituloNoticia">
                             <div class="fuenteNoticia">
-                                <span><strong>{{item.source.name}}</strong></span>
+                                <span>
+                                    <strong>{{item.source.name}}</strong>
+                                </span>
                             </div>
                             <header>
                                 <h2 class="titulo">
@@ -27,8 +30,6 @@
                     </div>
                 </a>
             </article>
-
         </div>
-
     </div>
 </div>

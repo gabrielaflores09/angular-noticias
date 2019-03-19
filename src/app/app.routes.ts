@@ -5,6 +5,7 @@ import { NewsContentComponent } from './news-content/news-content.component';
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+// para futuras definiciones de rutas
 export const routes: Routes = [
     { path: '', component: HeaderComponent },
     { path: '', component: NewsContentComponent},
